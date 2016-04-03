@@ -147,3 +147,44 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Personal Aliases
+
+alias pd="pwd"
+alias ping="ping -c4"
+alias python2='python'
+alias python="python3"
+alias gedit="open -a gedit"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../"
+alias .....="cd ../../../"
+alias cellar="cd /usr/local/Cellar"
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabafaced
+alias ls='ls -GFh'
+alias py="python3"
+alias cse="ssh brack107@csel-kh1250-19.cselabs.umn.edu"
+alias csescpd="scp -r brack107@csel-kh1250-19.cselabs.umn.edu"
+alias csescp="scp brack107@csel-kh1250-19.cselabs.umn.edu"
+alias c='clear'
+alias csex='ssh -X brack107@csel-kh1250-19.cselabs.umn.edu'
+alias iA='cd /Users/KillianBrackey1/Library/Mobile\ Documents/27N4MQEA55~pro~writer/Documents'
+alias tor.sh='~/Documents/pythonScripts/tor.sh'
+alias pip='pip'
+alias subl="sublime"
+alias sl="sublime"
+alias objdump='/usr/local/Cellar/binutils/2.25.1/x86_64-apple-darwin15.0.0/bin/objdump'
+alias google='python3 ~/automate/googleLucky5.py'
+alias matlab='/Applications/MATLAB_R2015b.app/bin/matlab -nodesktop
+cd Documents/MATLAB'
+alias jad='~/Downloads/jad158g.mac.intel/jad'
+alias scpcse='scp -rq brack107@csel-kh1250-10.cselabs.umn.edu:~/Documents ~/CSE'
+alias scpumn='scp -rq ~/umn/ brack107@csel-kh1250-10.cselabs.umn.edu:~/'
+alias copypath='pwd|pbcopy' # copy path to clipboard
+alias dockercontainers='docker rm $(docker ps -a -q)'
+alias dockerimages='docker rmi $(docker images -q)'
+alias syncUMN="rsync -r ~/umn/ brack107@csel-kh1250-10.cselabs.umn.edu:~/umn/"
+alias sshPersonalSite="ssh root@198.199.65.193"
+alias idea="open -a IntelliJ\ IDEA\ 15\ CE"
+alias droplet="ssh root@198.199.65.193"
